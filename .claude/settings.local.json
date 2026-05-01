@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm info *)",
+      "Bash(npm help *)",
+      "Bash(npm install *)",
+      "Bash(wait)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(echo \"DONE:$?\")",
+      "Bash(node -e \"const pkg = require\\('./apps/api/package.json'\\); console.log\\(pkg.name\\)\")",
+      "Bash(node -e \"const pkg = require\\('./apps/web/package.json'\\); console.log\\(pkg.name\\)\")"
+    ]
+  }
+}
