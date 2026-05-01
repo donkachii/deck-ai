@@ -4,14 +4,20 @@
   "private": true,
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "tsc --outDir dist"
+    "build": "tsc --outDir dist",
+    "db:generate": "drizzle-kit generate"
   },
   "dependencies": {
     "@hono/node-server": "^2",
-    "hono": "^4"
+    "dotenv": "^16",
+    "drizzle-orm": "^0.43",
+    "hono": "^4",
+    "pg": "^8"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pg": "^8",
+    "drizzle-kit": "^0.30",
     "tsx": "^4",
     "typescript": "^5"
   }

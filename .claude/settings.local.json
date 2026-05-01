@@ -9,7 +9,8 @@
       "Bash(echo \"EXIT:$?\")",
       "Bash(echo \"DONE:$?\")",
       "Bash(node -e \"const pkg = require\\('./apps/api/package.json'\\); console.log\\(pkg.name\\)\")",
-      "Bash(node -e \"const pkg = require\\('./apps/web/package.json'\\); console.log\\(pkg.name\\)\")"
+      "Bash(node -e \"const pkg = require\\('./apps/web/package.json'\\); console.log\\(pkg.name\\)\")",
+      "Bash(npm run *)"
     ]
   }
 }
